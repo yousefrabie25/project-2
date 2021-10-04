@@ -1,0 +1,414 @@
+
+.navbar{
+   background:linear-gradient(to right,rgb(59, 94, 110) 70%,white) ; 
+  
+}
+.nav-item .nav-link{
+    font-weight: bold;
+}
+.nav-link {
+    color: white;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+     text-shadow: 2px 2px #7a7878;;
+}
+.tap .nav-link{
+    border-radius: 30px;
+   color: white;
+}
+
+
+
+/* end nav */
+
+
+
+
+
+/* start first page */
+ .banner-text .text-head{
+     padding-top: 5px;
+    display: flex;
+    justify-content:center;
+    
+    align-items: center;
+}
+ .banner-text .text-head .h2{
+    padding-top: 50px;
+    font-size: 65px;
+    font-weight: 900;
+    color: #50658e;
+    text-transform: uppercase;
+    
+    
+}
+ .banner-text .text-head span h3{
+    padding-top: 10px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #FF5363;
+    
+    margin-top: 14px;
+    
+}
+ .banner-text .text-head span h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #50658e;
+   
+}
+ 
+ .banner-text .para{
+    padding: 30px 0;
+    text-align: center;
+}
+ .banner-text .text-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0 50px;
+    flex-direction: row;
+}
+ .banner-text .text-btn a button span{
+    margin-left: 10px;
+}
+ */
+ .banner-text .italic{
+    font-size: 12px;
+    color: #7d92bb;
+}
+.style-a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    word-spacing: 5px;
+   
+}
+.btn {
+    font-size: 30px;
+    color: white;
+    background-color: #ff0202;
+    padding: 10px 14px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 23px;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+
+
+header .banner .banner-text .text-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+    .banner-text .text-head .h2{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .banner-img img{
+        width: 100%;
+      
+        margin-top: 15px;
+        border-radius: 20px;
+        
+    }
+        
+
+@media(max-width:650px){
+    .banner-text .text-head .h2{  
+    font-size: 15px;
+}
+    .banner-text .text-head span h3{
+        font-size: 18px;
+
+    }
+}
+/* end first page */
+
+
+
+
+/* start sec page  */
+
+.style-h3 {
+    color: #2a81ea;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+.style-h2 {
+    color: #ca0054;
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.about .about-text .para1 {
+    font-weight: bold;
+    font-size: 19px;
+}
+.about .about-text p {
+    margin-bottom: 20px;
+}
+.style-p {
+    color: #64380f;
+    line-height: 1.5em;
+}
+.about .about-links ul li {
+    color: #b70bbd;
+    font-size: 20px;
+    padding: 20px 30px;
+    font-weight: bold;
+    border-bottom: 3 px solid #000000;
+    border-radius: 30px;
+}
+@media(max-width:650px){}
+/* end sec page */
+
+
+
+
+
+/* start third page */
+ .transmission-text {
+    padding-top: 2px;
+    text-align: center;
+}
+.transmission-box .transmission-box-img img {
+    width: 100%;
+    height: 100%;
+    border-bottom: 6px solid #9cc2f7;
+}
+.img1 .transmission-box-img{
+    width: 195px;
+}
+.transmission .transmission-btn a svg {
+    margin-right: 15px;
+}
+.btn {
+    font-size: 18px;
+    color: white;
+    background-color: #e66f00;
+    padding: 10px 14px;
+    margin-top: 5px;
+    margin-left: 10px;
+    
+}
+.sec{
+    background-color: rgba(40, 120, 185, 0.37);
+}
+@media(max-width:650px){}
+/* end third page */
+
+
+
+
+
+/* start four page */
+.S-symptoms{
+    background:linear-gradient(to right,#9cc2f7 70%,white);
+    margin-top: 15px;
+   
+}
+.symptoms{
+    padding-top: 2px;
+    text-align: center;
+    margin-top: 15px;
+}
+.symptoms h3{
+    font-size: 25;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    
+
+}
+.symptoms h2{
+    font-weight: bold;
+}
+.symptoms p{
+    font-family: 'Kaushan Script', cursive;
+}
+.symptoms boxs{
+    margin: 120px;
+}
+.box-img{
+    width: 100%;
+   border-radius: 50%;
+}
+@media(max-width:650px){}
+/* end four page */
+
+
+
+/* start fivve page== */
+.prevention{
+    
+    background:linear-gradient(to right,#3cb7c7 70%,rgb(168, 168, 168));
+}
+
+.prevention-text{
+    padding-top: 2px;
+    text-align: center;
+    margin-top: 15px;
+}
+.style-h3{
+    margin-top: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    color: #000000;
+}
+.style-h2{
+    font-family: 'Creepster', cursive;
+    color: rgb(97, 3, 39);
+}
+.p{
+    font-family: 'Kaushan Script', cursive;
+}
+@media(max-width:650px){}
+/* end five page */
+
+
+
+
+/* start sex page */
+.follow{
+    background:linear-gradient(to right,#3cb7c7 70%,rgb(168, 168, 168));
+    margin-top: 15px;
+}
+.follow h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.follow-img img{
+    border-radius: 50%;
+    width: 50%;
+
+}
+
+
+@media(max-width:650px){}
+/* end sex page */
+
+.treatment{
+    margin-top: 10px;
+    background-color: rgb(16, 191, 235);
+}
+.m-h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: 'Bungee', cursive;
+   lighting-color: turquoise;
+   stroke: white,15px;
+   
+}
+.m-h2{
+    font-size: 42px;
+    color: white;
+    font-weight: 900;
+}
+.pl{
+    color: white;
+    text-align: right;
+}
+.treatment-self{
+    background-color: #4695a3;
+    margin-top: 40px;
+    padding: 50px;
+    border-radius: 7px;
+  padding-top: 10px;
+    color: white;
+}
+
+@media(max-width:650px){}
+/* end seven page */
+
+.protect-text{
+    padding-top: 5px;
+    text-align: center;
+}
+.protect{
+    margin-top: 10px;
+    background:linear-gradient(to right,#3cb7c7 70%,rgb(168, 168, 168));
+}
+.img img {
+
+    border-radius: 50%;
+}
+.protect-imgs2{
+    margin-top: 100px;
+}
+.d-h3{
+    font-family: 'Bungee', cursive;
+    font-weight: bold;
+}
+.d-h2{
+    font-family: 'Press Start 2P', cursive;
+}
+.d-p{
+    font-family: 'Kaushan Script', cursive;
+}
+.text{
+    font-size: 14px;
+    
+}
+.icon{
+
+    background-color:#3cb7c7 ;
+    color: rgb(255, 255, 255);
+}
+.protect-imgs1 text{
+    margin-left: 20px;
+}
+@media(max-width:650px){}
+
+
+/* end 8 page  */
+
+.footer{
+    background:linear-gradient(to right,#3cb7c7 70%,rgb(168, 168, 168));
+    margin-top: 10px;
+
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.style-h3{
+    color: white;
+}
+.footer .footer-boxs p{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.footer-boxs .footer-box ul li a{
+   color: black;
+   font-weight: bold;
+}
+.footer-text p{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-shadow:2px 2px rgb(0, 0, 0);
+}
